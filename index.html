@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JS Calulator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- calculator screen -->
+<div class="container">
+<div id="memoryScreen"><div id="memoryScreenInternal"></div></div>
+<div id="currentScreen"><div id="currentScreenInternal"></div></div>
+
+<!-- calculator button -->
+<table>
+<tr>
+  <td><button class="numb" data-name="clearAll" value="AC" >AC</button></td>
+  <td><button class="numb" data-name="clearLast" value="CE">CE</button></td>
+  <td><button class="digit" data-name="digits" value="(">(</button></td>
+  <td><button class="digit" data-name="digits" value=")">)</button></td>
+</tr>
+<tr>
+  <td><button class="digit" data-name="digits" value="7">7</button></td>
+  <td><button class="digit" data-name="digits" value="8">8</button></td>
+  <td><button class="digit" data-name="digits" value="9">9</button></td>
+  <td><button class="digit" data-name="operators" value="/">/</button></td>
+</tr>
+<tr>
+  <td><button class="digit" data-name="digits" value="4">4</button></td>
+  <td><button class="digit" data-name="digits" value="5">5</button></td>
+  <td><button class="digit" data-name="digits" value="6">6</button></td>
+  <td><button class="digit" data-name="operators" value="*">x</button></td>
+</tr>
+<tr>
+  <td><button class="digit" data-name="digits" value="1">1</button></td>
+  <td><button class="digit" data-name="digits" value="2">2</button></td>
+  <td><button class="digit" data-name="digits" value="3">3</button></td>
+  <td><button class="digit" data-name="operators" value="+">+</button></td>
+</tr>
+<tr>
+  <td><button class="digit" data-name="digits" value="0">0</button></td>
+  <td><button class="digit" data-name="dot" value=".">.</button></td>
+  <td><button class="numb" data-name="equal" value="=">=</button></td>
+  <td><button class="digit" data-name="operators" value="-">-</button></td>
+</tr>
+</table>
+
+
+</div> <!-- end of container -->
+
+<script src="script.js"></script>
+</body>
+</html>
