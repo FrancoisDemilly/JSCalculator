@@ -21,15 +21,15 @@ body {
   width: 280px;
   margin: 10px 10px 0px 10px;
   background-color: #585E5E;
-  position: relative;
   border-radius: 5px 5px 0 0;
   text-align: right;
   line-height: 50px;
-  border-bottom: 0.5px solid #404c44; }
-  #memoryScreen #memoryScreenInternal {
-    height: 50px;
-    width: 270px;
-    overflow: hidden; }
+  border-bottom: 0.5px solid #404c44;
+  overflow: hidden;}
+
+#memoryScreenInternal {
+  float: right;
+  }
 
 #currentScreen {
   height: 50px;
@@ -40,9 +40,7 @@ body {
   border-radius: 0 0 5px 5px;
   text-align: right;
   line-height: 50px; }
-  #currentScreen #currentScreenInternal {
-    height: 50px;
-    width: 270px; }
+
 
 table {
   position: relative;
@@ -56,6 +54,20 @@ table {
       height: 40px;
       border-radius: 5px;
       font-family: Orbitron;
-      font-size: 20px; }
+      font-size: 20px;
+      background: #FCFCFC;
+     }
 
+    button::hover {
+        background: #FCFCFC;
+      }
+
+    button::-moz-focus-inner {
+      border: 0;
+      padding: 0;
+    }
+
+    button:focus {
+      outline: none;
+    }
 /*# sourceMappingURL=style.css.map */
